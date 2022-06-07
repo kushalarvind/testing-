@@ -1,2 +1,7 @@
-AWS_USER_KEY=AKIAVKSTDGUKL62JUGIUGYUKJLHGYIGUIYSLP5
-AWS_SECRET_KEY=BMTMKOmCJ1ILXpVFvSNKa8NtV4tKDeVRDtyfuyguiihRDYUFUIG3w4e566789Tbrho3MgX4ltn
+  public closeDialog() {
+    this.dialogRef.close();
+  }
+  onConfirm(): void {
+    // Close the dialog, return true
+    this.dialogRef.close(true);
+  }
